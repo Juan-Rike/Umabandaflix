@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background: black;
+    padding: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+header {
+    border-bottom: solid 0.1px;
+    text-align-last: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.chamada {
+    background: #474747;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+img {
+    height: 250px;
+}
+
+.chamada-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+h10 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.categoria_desenvolvimento::before {
+    color: #ffffff;
+    /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: #474747;
+
+    content: "A seção a seguir se encotra em desenvolvimento";
+    font-size: 500%;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
